@@ -1,4 +1,4 @@
-python==3.9
+python==3.10
 altair==5.4.1
 asttokens==3.0.0
 attrs==24.2.0
