@@ -13,7 +13,7 @@ import scipy.sparse as sparse
 import plotly.express as px
 
 @st.cache_data
-def read_files(folder_name='data'):
+def read_files(folder_name='./data'):
     """
     Функция для чтения файлов.
     Возвращает два DataFrame с рейтингами и характеристиками книг.
