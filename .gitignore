@@ -1,0 +1,8 @@
+venvb9_3_8/
+*.zip
+*.csv
+*.pkl
+
+!books.csv
+!item_embeddings.pkl
+!ratings.zip
