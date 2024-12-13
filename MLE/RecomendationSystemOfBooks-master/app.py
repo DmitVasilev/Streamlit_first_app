@@ -18,10 +18,10 @@ def read_files(folder_name='data'):
     Функция для чтения файлов.
     Возвращает два DataFrame с рейтингами и характеристиками книг.
     """
+    books = pd.read_csv(folder_name + '/books.csv')
     ratings = pd.read_csv(folder_name + '/ratings.zip',
                           compression='zip'
-                          )
-    books = pd.read_csv(folder_name + '/books.csv')
+                          )    
     return ratings, books
 
 def make_mappers(books):
